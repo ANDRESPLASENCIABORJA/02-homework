@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/*<header> section insted of <div> class=."header"> for semantic html purposes*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*<h1> label identifies the attributes of the first header of the html document*/
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*<span> label to change design attributes of an specific word in this case "seo" in the attriute <h1>*/
+.seo {
+    color: #d9dcd6;
+}
+/*<nav> section instead of <div> identifies that the links listed are used to navigate throught the webpage also to give them design attributes*/
+nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*<li> design attributes for the links located on <ul> <nav> section*/
+li {  
+    display: inline-block;
+    margin-left: 25px;
+}
+/*<a> sets the href, the design attributes, and gives names of the links listed on <ul> <nav>*/ 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*<p> sets paragraph design attributes*/
+p {
+    font-size: 16px;
+}
+/*<figure> semantic html element instead of <div> and instead of class="hero", class="digital-marketing-meeting" to identify wich image should be on the <figure> element, also sets the design attributes in css*/
+.digital-marketing-meeting {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg") ;
+    background-size: cover;
+    background-position: center;
+    alt: inherit;
+}
+/*<main> semantic html element to identify that is the most important content on the webpage instead of <div class="content"> an to define its design attributes on css*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px; 
+}
+/*<h2> label identifies all the headers on the <main> element sections and is used in css to give this headers design attributes*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*This class based on the section header identifies the section design attributes*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This class based on the section header identifies the image section design attributes*/
+.search-engine-optimization img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+/*This class based on the section header identifies the section design attributes*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This class based on the section header identifies the image section design attributes*/
+.online-reputation-management img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+/*This class based on the section header identifies the section design attributes*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This class based on the section header identifies the image section design attributes*/
+.social-media-marketing img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+/*<aside> semantic html element instead on <div> to identify the right side sections of the webpage, and to use it in css to define the design attributes to the element*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*<h3> attribute identifies all the headers on the <aside> element sections and is used in css to give design attributes to <aside> headers*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*This class based on the section header identifies the section design attributes*/
+.lead-generation {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*This class based on the section header identifies the image section design attributes*/
+.lead-generation img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*This class based on the section header identifies the section design attributes*/
+.brand-awareness {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*This class based on the section header identifies the image section design attributes*/
+.brand-awareness img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*This class based on the section header identifies the section design attributes*/
+.cost-management {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*This class based on the section header identifies the image section design attributes*/
+.cost-management img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*<footer> element insted of <div> class=."footer"> for semantic html purposes and to add design attributes on css to this last element of the website*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*<h4> label identifies the design attributes of the footer header of the html document*/
+h4 {
+    font-size: 20px;
+}
