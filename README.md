@@ -55,21 +55,21 @@ Function: Link the  <main> first <section> "search-engine-optimization" with <he
 7.1.- id="search-engine-optimization"
 
 ## Old code images:
-![Screen shot 1](./assets/images/ss-old-1.png)
-![Screen shot 2](./assets/images/ss-old-2.png)
-![Screen shot 3](.assets/images/ss-old-3.png)
-![Screen shot 4](.assets/images/ss-old-4.png)
-![Screen shot 5](.assets/images/ss-old-5.png)
-![Screen shot 6](.assets/images/ss-old-6.png)
-![Screen shot 7](.assets/images/ss-old-7.png)
+![Screenshot 1](./assets/images/ss-old-1.png)
+![Screenshot 2](./assets/images/ss-old-2.png)
+![Screenshot 3](.assets/images/ss-old-3.png)
+![Screenshot 4](.assets/images/ss-old-4.png)
+![Screenshot 5](.assets/images/ss-old-5.png)
+![Screenshot 6](.assets/images/ss-old-6.png)
+![Screenshot 7](.assets/images/ss-old-7.png)
 
 ## New code images:
-![Screen shot 1](.assets/images/ss-new-1.png)
-![Screen shot 2](.assets/images/ss-new-2.png)
-![Screen shot 3](.assets/images/ss-new-3.png)
-![Screen shot 4](.assets/images/ss-new-4.png)
-![Screen shot 5](.assets/images/ss-new-5.png)
-![Screen shot 6](.assets/images/ss-new-6.png)
+![Screenshot 1](.assets/images/ss-new-1.png)
+![Screenshot 2](.assets/images/ss-new-2.png)
+![Screenshot 3](.assets/images/ss-new-3.png)
+![Screenshot 4](.assets/images/ss-new-4.png)
+![Screenshot 5](.assets/images/ss-new-5.png)
+![Screenshot 6](.assets/images/ss-new-6.png)
 
 ## Github pages link:
 https://andresplasenciaborja.github.io/Horiseon-proyect/
