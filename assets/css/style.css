@@ -8,14 +8,14 @@ body {
     background-color: #d9dcd6;
 }
 
-/*<header> section insted of <div> class=."header"> for semantic html purposes*/
+/*Design attributes for the block of information <header>*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/*<h1> label identifies the attributes of the first header of the html document*/
+/*Design attributes of the first header of the html document <h1>*/
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,7 +24,7 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-/*<nav> section instead of <div> identifies that the links listed are used to navigate throught the webpage also to give them design attributes*/
+/*Design attributes for <nav>*/
 nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -32,17 +32,17 @@ nav{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*<li> design attributes for the links located on <ul> <nav> section*/
+/*<li> Design attributes for the links located on <ul> <nav> section*/
 li {  
     display: inline-block;
     margin-left: 25px;
 }
-/*<a> sets the href, the design attributes, and gives names of the links listed on <ul> <nav>*/ 
+/*<a> Sets the href, the design attributes, and gives names of the links listed on <ul> <nav>*/ 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/*<p> sets paragraph design attributes*/
+/*All paragraph design attributes <p>*/
 p {
     font-size: 16px;
 }
@@ -62,12 +62,12 @@ main {
     display: inline-block;
     margin-left: 20px; 
 }
-/*<h2> label identifies all the headers on the <main> element sections and is used in css to give this headers design attributes*/
+/*<h2> Design attributes to all the headers located on main sections*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*This class based on the section header identifies the section design attributes*/
+/*This class based on the main section 1 and sets design attributes*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -76,13 +76,13 @@ h2 {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*This class based on the section header identifies the image section design attributes*/
+/*This class based on the main section 1 and sets image design attributes*/
 .search-engine-optimization img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
-/*This class based on the section header identifies the section design attributes*/
+/*This class based on the main section 2 and sets design attributes*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,13 +91,13 @@ h2 {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*This class based on the section header identifies the image section design attributes*/
+/*This class based on the main section 2 and sets image design attributes*/
 .online-reputation-management img {
     max-height: 200px;
     float: right;
     margin-left: 25px;
 }
-/*This class based on the section header identifies the section design attributes*/
+/*This class based on the main section 3 and sets design attributes*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,13 +106,13 @@ h2 {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*This class based on the section header identifies the image section design attributes*/
+/*This class based on the main section 3 and sets image design attributes*/
 .social-media-marketing img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
-/*<aside> semantic html element instead on <div> to identify the right side sections of the webpage, and to use it in css to define the design attributes to the element*/
+/*<aside> semantic html element instead on <div> to identify the right side sections of the webpage, and to use it in css to define the design attributes to the block of information*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -123,52 +123,52 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*<h3> attribute identifies all the headers on the <aside> element sections and is used in css to give design attributes to <aside> headers*/
+/*<h3> Design attributes to all the headers located on aside sections*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*This class based on the section header identifies the section design attributes*/
+/*This class based on the aside section 1 and sets design attributes*/
 .lead-generation {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*This class based on the section header identifies the image section design attributes*/
+/*This class based on the aside section 1 and sets image design attributes*/
 .lead-generation img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*This class based on the section header identifies the section design attributes*/
+/*This class based on the aside section 2 and sets design attributes*/
 .brand-awareness {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*This class based on the section header identifies the image section design attributes*/
+/*This class based on the aside section 2 and sets image design attributes*/
 .brand-awareness img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*This class based on the section header identifies the section design attributes*/
+/*This class based on the aside section 3 and sets design attributes*/
 .cost-management {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*This class based on the section header identifies the image section design attributes*/
+/*This class based on the aside section 3 and sets image design attributes*/
 .cost-management img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*<footer> element insted of <div> class=."footer"> for semantic html purposes and to add design attributes on css to this last element of the website*/
+/*Design attributes for the block of information <footer>*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*<h4> label identifies the design attributes of the footer header of the html document*/
+/*Design attributes of the last header of the html document <h4>*/
 h4 {
     font-size: 20px;
 }

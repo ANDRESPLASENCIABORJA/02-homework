@@ -2,11 +2,11 @@
 This readme lists and describes the changes that were made to the website initial code:
 
 ## <title>Horiseon</title> instead of <title>website</title> 
-The new title was thinked for costumers to know in fact that the website is from the marketink agency.
+The new title was thinked for costumers to know in fact that the website is from the marketing agency "Horiseon".
 
 ## Semantic code changes
 2.1.- <header> instead of <div class="header"> 
-Function: Identify the first block of information the website.
+Function: Identify the first block of information on the website.
 2.2.- <figure> instead of <div class="hero"></div> 
 Function: Identify the second block of information on the website that consists only of a background image.
 2.3.- <main> instead of <div class="content"> 
@@ -19,7 +19,7 @@ Function: Identify the last block of information on the website.
 Function: Identify the information contained on each website block in a semantic way.
 
 ## Organized <h> elements:
-Function: List headers from 1 to 4 each one agreeing to its website block for example: <header> is the block of information number 1 so the headers inside it would be <h1>.
+Function: List headers from 1 to 4 each one agreeing to its website block, for example: <header> is the block of information number 1 so the headers inside it would be <h1>.
 Function 2: Each header number has the same css attributes.
 3.1.- <header> = <h1>
 3.2.- <main> = <h2>
@@ -36,7 +36,7 @@ Function: identify which image should be in that position if for some reason is 
 4.6.- alt="cost-management.jpg"
 
 ## Removed <classes>
-Function: Remove all class elements that weren't necessary to design on css:
+Function: Remove all class elements that weren't necessary to the code:
 5.1.- .header
 5.2.- .hero
 5.3.- .benefits
